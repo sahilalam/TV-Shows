@@ -28,7 +28,7 @@ document.getElementById('search').onclick=async()=>{
         for(let i=0;i<data.length && data[i]['show']['image'];i++)
         {
             let col=document.createElement('div');
-            col.setAttribute("class","col-lg-4 col-md-5 col-sm-7 col-10 p-0 m-4 text-center columns bg1");
+            col.setAttribute("class","col-lg-3 col-md-5 col-sm-7 col-10 p-0 m-4 text-center columns bg1");
 
             let col1=document.createElement('div');
             col1.setAttribute("class","col-12 p-0 m-0");
