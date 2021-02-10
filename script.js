@@ -21,7 +21,7 @@ document.getElementById('search').onclick=async()=>{
     {
         let name=document.getElementById('name').value;
         name=(name.length===0)?'girls':name;
-        let data= await getdata("http://api.tvmaze.com/search/shows?q="+name);
+        let data= await getdata("https://api.tvmaze.com/search/shows?q="+name);
         
         let row=document.getElementById('content');
         row.innerHTML="";
